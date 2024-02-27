@@ -63,7 +63,10 @@
   do
     echo $ARG1
   done
+```
 -To run this example script, open a new file in an editor (e.g. gedit, sublime text, vim, etc.) and paste the example in and save the file as question_5.sh, then in your terminal navigate to the directory/location where you saved the file and execute the following commands to make the file executable (so you can run it) and to run the file with an argument, which it will then print out 5 times.
+```bash
 cd <directory where file is saved>
 chmod +x question_5.sh
 ./question_5.sh hello     (this will print hello 5 times)
+```
